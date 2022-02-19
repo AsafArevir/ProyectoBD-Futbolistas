@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>Fut-Fanaticos</title>
+	<style type="text/css">
+		* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width: auto;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+			body {
+				height: 800px;
+                background-image: url("https://www.pinnacle.com/Cms_Data/Contents/Guestes/Media/betting-articles/soccer/latam-soccer-previews/liga-mx.jpg");
+  				background-repeat:no-repeat;
+  				background-position-x:center;
+  				background-position-y:center;
+  				background-size: 100rem;
+			}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+			<ul class="nav">
+				<li><a href="file:///C:/Users/yoshu/OneDrive/Escritorio/Base%20de%20datos%20proyecto/Formularios%20HTML/Principal.html">Inicio</a></li>
+				<li><a href="">Directores</a></li>
+				<li><a href="">Equipos</a></li>
+				<li><a href="">Jugadores</a></li>
+				<li><a href="">Tabla de posiciones</a></li>
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Infromacion de la pagina</a></li>
+						<li><a href="">Contactos para mas informacion</a></li>
+					</ul>
+			</ul>
+		</div>
+		<br>
+		<br>
+		<br>
+		<H1 align="center" style="color:#FFFFFF";>Fanaticos Ligamx</H1>
+		<br>
+		<h2 style="color:#48ACFC";>Para los fanaticos del futbol</h2>
+		<br>
+		<br>
+		<p align = "justify" style="color:#FFFFFF";>La Primera División de M&eacute;xico también conocida simplemente como Liga MX o por motivos de patrocinio Liga BBVA MX,es el nivel más alto del fútbol profesional, consta de 18 equipos. </p>
+		<br>
+		<p align = "justify" style="color:#FFFFFF";>En esta pagina encontraras todo lo que quieras saber sobre tu equipo favorito tal como los jugadores, el director tecnico, las posiciones, el calendario de los partidos, las canchas en las que se llevara a cabo el partido, los arbitros y estadisticas de partidos ganados o perdidos.</p>
+
+		<div class="slider">
+			<ul>
+				<li><img src="img/1.jpg" alt=""></li>
+				<li><img src="img/2.jpg" alt=""></li>
+				<li><img src="img/3.jpg" alt=""></li>
+				<li><img src="img/4.jpg" alt=""></li>
+				<li><img src="img/5.jpg" alt=""></li>
+			</ul>
+		</div>
+
+</body>
+</html>
