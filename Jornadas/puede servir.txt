@@ -1,0 +1,7 @@
+			<th>NUM_PARTIDO</th>
+			<th>JORNADA</th>
+			<th>ID_CANCHA</th>
+
+				//<td><?php echo oci_result($unir, 'NUM_PARTIDO'); ?></td>
+				//<td><?php echo oci_result($unir, 'JORNADA'); ?></td>
+				//<td><?php echo oci_result($unir, 'ID_CANCHA'); ?></td>
